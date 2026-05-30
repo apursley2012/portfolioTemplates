@@ -33,7 +33,7 @@ jobs:
       - name: Upload selected theme
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./themes/theme-two
+          path: ./themes/y2k-win98
 
       - name: Deploy selected theme
         id: deployment
